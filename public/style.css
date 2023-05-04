@@ -1,0 +1,52 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  background-image: url('https://hips.hearstapps.com/hmg-prod/images/gettyimages-1125612329.jpg?crop=0.668xw:1.00xh;0.242xw,0&resize=1200:*');
+  text-align: center;
+  font-family: 'Crimson Text';
+}
+img{
+  height: 200px;
+}
+
+.container{
+  background-color: white;
+  opacity: 0.9;
+  padding: 25px;
+ 
+}
+li{
+  list-style: none;
+}
+.julia.text-center{
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  padding: 30px;
+}
+.textarea-container {
+  display: inline-block;
+  margin: 10px;
+}
+
+.textarea-container label {
+  display: block;
+}
+
+#description, #ingredients {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  resize: vertical;
+}
+.fa-trash{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+}
